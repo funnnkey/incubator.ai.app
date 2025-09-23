@@ -53,6 +53,8 @@ function RootLayoutNav() {
       <Stack>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
+  <Stack.Screen name="auth" options={{ headerShown: false, title: 'Sign In / Sign Up' }} />
+  <Stack.Screen name="idea-submission" options={{ headerShown: true, title: 'Submit Startup Idea' }} />
       </Stack>
     </ThemeProvider>
   );
